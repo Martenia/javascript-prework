@@ -1,3 +1,31 @@
 body {
     background-color: beige;
+    font-family: 'Raleway', sans-serif;
+    color: #3b3d40;
+}
+.container {
+    text-align: center;
+    padding-top: 20px;
+}
+h1 {
+    color: #3b3d40;
+}
+button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 2px;
+    cursor: pointer;
+}
+#messages {
+    padding: 20px;
+}
+#result {
+    font-size: 50px;
+    color: #f44336;
 }

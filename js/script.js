@@ -86,7 +86,7 @@ function buttonClicked(argButtonName) {
       printMessage('Przegrywasz :(');
       y++;    
       }
-    printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
+    printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove + '.');
     }
 
   playerMove = argButtonName;
@@ -96,9 +96,7 @@ function buttonClicked(argButtonName) {
   computerMove = getMoveName(randomNumber);
   console.log('ruch komputera to: ' + computerMove);
   displayResult(playerMove, computerMove);
-  printResult('Wygrane: ' + x);
-  printResult('Przegrane: ' + y);
-  printResult('Wygrane minus przegrane: ' + (x - y));
+  printResult('<i class="fas fa-thumbs-up"></i> ' + x + ' - ' + y + ' <i class="fas fa-thumbs-down"></i>');
 }
 
 /** buttonTest.addEventListener('click', function(){ buttonClicked('Guzik TEST'); }); */
